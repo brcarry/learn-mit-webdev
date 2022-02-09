@@ -28,3 +28,8 @@ http://www.flexboxdefense.com/ - good for 💪🏼
 
 #### w2
 [react guide](http://weblab.to/react-guide-1)
+
+
+npm : 无法将“npm”项识别为 cmdlet、函数、脚本文件或可运行程序的名称
+
+下载安装node.js,以管理员身份运行vscode

@@ -8,6 +8,11 @@ body {
   background-color: gray;
 }
 
+/*
+    vh,vw,vmin...视口(Viewport)比例的长度
+    https://developer.mozilla.org/zh-CN/docs/Web/CSS/length
+*/
+
 #game-board {
   background-color: black;
   width: 100vmin;
@@ -16,6 +21,13 @@ body {
   grid-template-rows: repeat(21, 1fr);
   grid-template-columns: repeat(21, 1fr);
 }
+
+/*  
+    fr根据剩余空间自适应按比例调整大小
+    https://developer.mozilla.org/zh-CN/docs/Learn/CSS/CSS_layout/Grids
+    代码中使用方式具体到文档中内容为：
+    重复构建行/列
+*/
 
 .snake {
   background-color: lime;

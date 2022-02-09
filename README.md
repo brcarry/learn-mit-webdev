@@ -15,9 +15,13 @@ css文件中用：
 每个元素从外到内为margin-border-padding
 
 We recommend the guide linked in: weblab.to/flex 
+
 And these games:
+
 https://flexboxfroggy.com/ - good for learning 🐸
+
 http://www.flexboxdefense.com/ - good for 💪🏼
+
 
 
 #### w1
@@ -25,6 +29,7 @@ http://www.flexboxdefense.com/ - good for 💪🏼
 完全提供的代码增加了注释和两个小功能：
 - 初始食物生成位置随机
 - 在游戏结束时输出长度的功能
+
 
 #### w2
 [react guide](http://weblab.to/react-guide-1)

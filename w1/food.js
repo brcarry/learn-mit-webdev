@@ -3,10 +3,12 @@
 
 const GRID_SIZE = 21;
 
-let initX = Math.floor(Math.random() * GRID_SIZE) + 1;
-let initY = Math.floor(Math.random() * GRID_SIZE) + 1;
+//let initX = Math.floor(Math.random() * GRID_SIZE) + 1;
+//let initY = Math.floor(Math.random() * GRID_SIZE) + 1;
+//let food = { x: initX, y: initY };
+//然后initX,initY的使命就完成了
 
-let food = { x: initX, y: initY };
+let food = { x: Math.floor(Math.random() * GRID_SIZE) + 1, y: Math.floor(Math.random() * GRID_SIZE) + 1 };
 
 const updateFood = () => {
     if (onSnake(food)) {

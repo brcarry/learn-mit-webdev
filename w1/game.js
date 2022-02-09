@@ -5,7 +5,10 @@ const main = () => {
     update();
     draw();
     if (gameOver) {
-        alert("Game Over");
+        alert("Game Over\n"
+            + "你的长度为：" 
+            + snakeBody.length
+        );
         clearInterval(gameLoop);
     }
 }

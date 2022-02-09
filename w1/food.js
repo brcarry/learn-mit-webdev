@@ -1,4 +1,12 @@
-let food = { x: 4, y: 16 };
+//JavaScript中变量可视为全局变量(?)
+//注意声明顺序，防止出现未声明或重复声明，影响编译
+
+const GRID_SIZE = 21;
+
+let initX = Math.floor(Math.random() * GRID_SIZE) + 1;
+let initY = Math.floor(Math.random() * GRID_SIZE) + 1;
+
+let food = { x: initX, y: initY };
 
 const updateFood = () => {
     if (onSnake(food)) {

@@ -10,6 +10,11 @@ const updateSnake = () => {
     snakeBody.pop();
 
     // add new head segment
+    // JavaScript中可以把变量视作引用
+    // 假如下面代码写成
+    // const newHead = snakeBody[0];
+    // 那么，newHead改变时，snakeBody会同步变化
+
     const newHead = {...snakeBody[0]};
     const snakeDirection = getInputDirection();
     

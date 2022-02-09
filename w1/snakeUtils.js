@@ -1,4 +1,4 @@
-const GRID_SIZE = 21;
+
 
 const onSnake = (position) => {
     for (let i = 0; i < snakeBody.length; i++) {
@@ -16,6 +16,9 @@ const equalPositions = (pos1, pos2) => {
 const growSnake = () => {
     snakeBody.push({ ...snakeBody[snakeBody.length - 1] });
 }
+
+//直接push到蛇尾，即此时蛇尾是两个div重叠的状态
+//因为蛇的移动是把蛇尾搬到蛇头，所以再下一次移动的时候，直接把插入到最后的蛇尾移到蛇头
 
 const getNewFoodPosition = () => {
     let randomFoodPosition = randomGridPosition();

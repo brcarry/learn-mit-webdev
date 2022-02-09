@@ -3,6 +3,9 @@
 2022/1/27
 https://weblab.mit.edu/
 
+https://developer.mozilla.org/zh-CN/
+
+
 #### w0
 css文件中用：
 - .来定义class
@@ -10,6 +13,12 @@ css文件中用：
 - :root来定义变量
 
 每个元素从外到内为margin-border-padding
+
+We recommend the guide linked in: weblab.to/flex 
+And these games:
+https://flexboxfroggy.com/ - good for learning 🐸
+http://www.flexboxdefense.com/ - good for 💪🏼
+
 
 #### w1
 用JavaScript实现了一个贪吃蛇的网页

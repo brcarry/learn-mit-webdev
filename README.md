@@ -6,7 +6,7 @@ https://weblab.mit.edu/
 https://developer.mozilla.org/zh-CN/
 
 
-#### w0
+### w0
 css文件中用：
 - .来定义class
 - #来定义id
@@ -23,20 +23,21 @@ https://flexboxfroggy.com/ - good for learning 🐸
 http://www.flexboxdefense.com/ - good for 💪🏼
 
 
-
-#### w1
+### w1
 用JavaScript实现了一个贪吃蛇的网页
 在提供的代码的基础上添加了注释并新增两个小功能：
 - 初始食物生成位置随机
 - 在游戏结束时输出长度的功能
 
 JS-crashcourse为教程示例代码的clone，未进行改动
+
 https://www.youtube.com/watch?v=1pYtVwIAvhY
+
 基本语法讲解+备忘录app
 
 
 
-#### w2
+### w2
 [react guide](http://weblab.to/react-guide-1)
 
 

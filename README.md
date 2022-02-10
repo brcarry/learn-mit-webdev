@@ -35,6 +35,8 @@ https://www.youtube.com/watch?v=1pYtVwIAvhY
 
 基本语法讲解+备忘录app
 
+[重新介绍 JavaScript（JS 教程）](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
+
 
 
 ### w2

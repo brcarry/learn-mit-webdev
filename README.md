@@ -27,7 +27,7 @@ http://www.flexboxdefense.com/ - good for 💪🏼
 用JavaScript实现了一个贪吃蛇的网页
 在提供的代码的基础上添加了注释并新增两个小功能：
 - 初始食物生成位置随机
-- 在游戏结束时输出长度的功能
+- 在游戏结束时输出长度
 
 JS-crashcourse为教程示例代码的clone，未进行改动
 

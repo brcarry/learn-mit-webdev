@@ -36,6 +36,9 @@ function render() {
   // 渲染頁面的list
   let htmlStr = ''
 
+
+  // function( item, index, arr )
+  // forEach中定义的函数可以有以上三个参数
   listContent.forEach(function (item) {
     htmlStr = htmlStr + `
     <div class="item">

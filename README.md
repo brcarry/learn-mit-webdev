@@ -26,9 +26,14 @@ http://www.flexboxdefense.com/ - good for 💪🏼
 
 #### w1
 用JavaScript实现了一个贪吃蛇的网页
-完全提供的代码增加了注释和两个小功能：
+在提供的代码的基础上添加了注释并新增两个小功能：
 - 初始食物生成位置随机
 - 在游戏结束时输出长度的功能
+
+JS-crashcourse为教程示例代码的clone，未进行改动
+https://www.youtube.com/watch?v=1pYtVwIAvhY
+基本语法讲解+备忘录app
+
 
 
 #### w2
@@ -36,5 +41,10 @@ http://www.flexboxdefense.com/ - good for 💪🏼
 
 
 npm : 无法将“npm”项识别为 cmdlet、函数、脚本文件或可运行程序的名称
-
 下载安装node.js,以管理员身份运行vscode
+
+搭配vs插件ES7+ React/Redux/React-Native snippets
+输入rafce补全基本函数框架
+
+<>内，通过空格来区分参数，例如：
+<Button color='black' text='Add'/>
